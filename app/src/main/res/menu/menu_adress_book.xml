@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".AdressBook">
+    <item android:id="@+id/addContactItem"
+        android:title="@string/menuitem_add_contact"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="never"
+        android:title-condensed="@string/menuitem_add_contact"
+        android:alphabeticShortcut="e"
+        />
+</menu>
